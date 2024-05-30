@@ -1,0 +1,42 @@
+.accord{
+    display: flex;
+    justify-content: center;
+}
+.log > h1{
+    text-align: center;
+    color: white;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-items: center;
+}
+.accordion {
+    background-color: #1F232A;
+
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #1F232A;
+
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #414141;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: white;
+}

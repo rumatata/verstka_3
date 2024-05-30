@@ -1,0 +1,31 @@
+.text{
+    display: flex;
+    background-color: #1F232A;
+    min-height: 760px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.text > p{
+    font-size: 56px;
+    text-align: center;
+    max-width: 80%;
+    
+}
+@media (max-width:376px){
+
+    .text > p{
+        font-size: 22px;
+        text-align: center;
+        max-width: 80%;
+        
+    }
+    .text{
+        display: flex;
+        background-color: #1F232A;
+        min-height: 400px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+}

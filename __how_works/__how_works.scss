@@ -1,0 +1,55 @@
+.tabs-wrapper .active { color: #F2923A; }
+
+.tabs-wrapper{
+    width: 80%;
+
+   
+}
+.karto4ka > p{
+    font-size: 20px;
+    color: white;
+}
+.karto4ka > img{
+    max-width: 250px;
+}
+.karto4ka{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tab-item{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+}
+.tab{
+   font-size: 56px; 
+   color: white;
+}
+.how_works{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1025px) {
+    .karto4ka{
+        align-items: flex-end;  
+    }
+    
+  }
+@media (max-width: 376px) {
+    .karto4ka > img{
+        max-width: 60%;  
+    }
+    .karto4ka > p{
+        font-size: 16px;
+    }
+    .tab{
+        font-size: 40px;
+    }
+  }

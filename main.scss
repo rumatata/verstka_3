@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "onest";
+    background-color:#151e2f;
+}
+
+
+@import "__header/__header";
+@import "__5_miles/__5_miles.scss";
+@import "__footer/__footer.scss";
+@import "__how_works/__how_works.scss";
+@import "__industries/__industries.scss";
+@import "__ready_case/__ready_case.scss";
+@import "__save_money/__save_money.scss";
+@import "__text/__text";
+@import "__accord/__accord"
